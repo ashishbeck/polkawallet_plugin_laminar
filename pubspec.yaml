@@ -20,9 +20,9 @@ dependencies:
   polkawallet_sdk: ^0.2.2
   polkawallet_ui:
     git:
-      url: https://github.com/polkawallet-io/ui.git
+      url: https://github.com/ashishbeck/ui.git
 #       ref: dee6fc6074f546e914c8794fd5e3a3e2b829b53c
-      ref: 144a244b038e56aead4fc97a189057819bfeab08
+      ref: 39dedfb392bf9f809f7bbcaa82dc7fcbe3860c9b
       
 dev_dependencies:
   flutter_test:
