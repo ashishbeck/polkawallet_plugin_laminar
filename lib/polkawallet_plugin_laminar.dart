@@ -39,7 +39,7 @@ class PluginLaminar extends PolkawalletPlugin {
   );
 
   @override
-  List<NetworkParams> get nodeList {
+  Future<List<NetworkParams>> get nodeList async {
     return node_list.map((e) => NetworkParams.fromJson(e)).toList();
   }
 
